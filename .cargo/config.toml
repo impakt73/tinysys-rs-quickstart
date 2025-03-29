@@ -1,0 +1,5 @@
+#[target.riscv32im-unknown-none-elf]
+#runner = ["tinysys-run", "<path_to_sdcard_directory_here>"]
+
+[build]
+target = "riscv32im-unknown-none-elf"
